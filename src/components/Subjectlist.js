@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table, Button } from "react-bootstrap";
-import BookDataService from "../services/book.services";
+import BookDataService from "../services/Subject.services";
 
 const BooksList = ({ getBookId }) => {
   const [books, setBooks] = useState([]);

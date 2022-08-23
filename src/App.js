@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Navbar, Row, Col } from "react-bootstrap";
-import AddBook from "./components/AddBook";
-import BooksList from "./components/BooksList";
+import AddBook from "./components/AddSubject";
+import BooksList from "./components/Subjectlist";
 import "./App.css";
 
 function App() {
